@@ -43,14 +43,15 @@ int main(void){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
+    cout<<endl<<"Print the values of the array:"<<endl;
     PrintArr(arr,n);
     cout<<endl;
     SelectionSort(arr,n);
-    cout<<endl;
+    cout<<endl<<"Values of the array after Selection Sort:"<<endl;
     PrintArr(arr,n);
     cout<<endl;
     SelectionSortReverse(arr,n);
-    cout<<endl;
+    cout<<endl<<"Values of the array after Reverse Selection Sort:"<<endl;
     PrintArr(arr,n);
     return 0;
 }
