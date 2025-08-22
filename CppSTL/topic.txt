@@ -35,5 +35,8 @@ Queue: First in, First Out
 Priority Queue:
     1. priority_queue<int> q;
     2. priority_queue<int, vector<int>, greater<int>> q;
-    3. push, emplace; top; pop; size;empty;
-    
+    3. push, emplace-- O(logn); top--O(logn); pop -- O(logn); size;empty;
+Map or (dictionary ): map<string, int> m; m[key]=value;
+    1. (insert, emplace) ; count; erase ; find ; size, empty, erase;
+Set: set<int> s;
+    1. insert, emplace; count; erase; find; size, empty, erase;
