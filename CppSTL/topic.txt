@@ -33,6 +33,7 @@ Queue: First in, First Out
     1. push, emplace; front; pop; size; empty; swap;
     2. queue<int> q; 
 Priority Queue:
-    1. Priority queu<int> q;
-    2. Priority_queu<int, vector<int>, greater<int>> q;
+    1. priority_queue<int> q;
+    2. priority_queue<int, vector<int>, greater<int>> q;
     3. push, emplace; top; pop; size;empty;
+    
