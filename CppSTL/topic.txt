@@ -40,3 +40,11 @@ Map or (dictionary ): map<string, int> m; m[key]=value;
     1. (insert, emplace) ; count; erase ; find ; size, empty, erase;
 Set: set<int> s;
     1. insert, emplace; count; erase; find; size, empty, erase;
+
+
+Algorithms
+
+-> Sorting
+    1. sort(arr,arr+n)
+    2. sort(arr,arr+n, greater<int>())
+    3. sort(v.begin(), v.end())
