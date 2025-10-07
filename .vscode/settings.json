@@ -1,9 +1,8 @@
 {
     "files.associations": {
         "*.embeddedhtml": "html",
-        "new": "cpp",
-        "random": "cpp",
         "iostream": "cpp",
+        "ostream": "cpp",
         "array": "cpp",
         "atomic": "cpp",
         "cctype": "cpp",
@@ -30,6 +29,7 @@
         "memory": "cpp",
         "memory_resource": "cpp",
         "numeric": "cpp",
+        "random": "cpp",
         "set": "cpp",
         "string": "cpp",
         "system_error": "cpp",
@@ -41,10 +41,11 @@
         "iosfwd": "cpp",
         "istream": "cpp",
         "limits": "cpp",
-        "ostream": "cpp",
+        "new": "cpp",
         "sstream": "cpp",
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }
